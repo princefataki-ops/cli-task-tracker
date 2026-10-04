@@ -9,7 +9,7 @@
 
         public function __construct(int $id, string $description, string $status = 'todo', ?string $createdAt = null, ?string $updatedAt = null)
         {
-            $now = date("H-m-d Y:i:s");
+            $now = date("Y-m-d H:i:s");
 
             $this->id = $id;
             $this->description = $description;
